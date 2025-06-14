@@ -9,21 +9,15 @@ GOOGLE_API_KEY = "AIzaSyAYlgueM3h9Q6z9zJ308keNIj_QzK6e1hY"
 # --- Initialize Gemini client ---
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
-st.title("📚 Hindi Book Chat with Gemini 2.0 Flash")
+st.title("5th Hindi Book with Vimala Jha")
 
 # --- Path to all chapter PDFs ---
 chapter_paths = {
-    "Chapter 1: उड़ चल, हारिल": "chapters/ch1.pdf",
-    "Chapter 2: डिनर": "chapters/ch2.pdf",
-    "Chapter 3: नाम चर्चा": "chapters/ch3.pdf",
-    "Chapter 4: मेरी स्मृति": "chapters/ch4.pdf",
-    "Chapter 5: भाषा का प्रश्न": "chapters/ch5.pdf",
-    "Chapter 6: दो संस्मरण": "chapters/ch6.pdf",
-    "Chapter 7: हिम": "chapters/ch7.pdf",
-    "Chapter 8: प्रण": "chapters/ch8.pdf",
-    "Chapter 9: ब्रजवासी": "chapters/ch9.pdf",
-    "Chapter 10: गुरुदेव का घर": "chapters/ch10.pdf",
-    "Chapter 11: दो लघुकथाएँ": "chapters/ch11.pdf",
+    "Chapter 1: प्राकृतिक दृश्य": "chapters/chap1.pdf",
+    "Chapter 2: पथ मेरा आलोकित कर दो": "chapters/chap2.pdf",
+    "Chapter 3: असली गहने": "chapters/chap3.pdf",
+    "Chapter 6: मेरा बचपन": "chapters/chap6.pdf",
+    "Chapter 8: अपनापन": "chapters/chap8.pdf"
 }
 
 # --- Select chapter with full name display ---
